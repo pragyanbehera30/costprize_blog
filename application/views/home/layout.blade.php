@@ -1,7 +1,3 @@
-/**
- * User: Swapna
- * Date: 17/9/14
- * Time: 4:48 PM
 <!DOCTYPE html>
 <html lang="en">
 <head>
