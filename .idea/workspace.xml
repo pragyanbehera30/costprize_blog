@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0545c852-4470-42bd-8433-97a77269a3b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/costprize_blog.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/home/layout.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/routes.php" afterPath="$PROJECT_DIR$/application/routes.php" />
-    </list>
+    <list default="true" id="0545c852-4470-42bd-8433-97a77269a3b2" name="Default" comment="" />
     <ignored path="costprize_blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +26,7 @@
       <file leaf-file-name="layout.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/home/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.84719867" vertical-offset="371" max-vertical-offset="1050">
+            <state line="5" column="16" selection-start="86" selection-end="86" vertical-scroll-proportion="0.25466892" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -249,7 +240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.84719867" vertical-offset="371" max-vertical-offset="1050">
+        <state line="5" column="16" selection-start="86" selection-end="86" vertical-scroll-proportion="0.25466892" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
