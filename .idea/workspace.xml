@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ff8131-db37-4de2-8515-43dece525d84" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/routes.php" afterPath="$PROJECT_DIR$/application/routes.php" />
-    </list>
+    <list default="true" id="71ff8131-db37-4de2-8515-43dece525d84" name="Default" comment="" />
     <ignored path="costprize_blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,6 +145,28 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="costprize_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="costprize_blog" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -266,12 +286,12 @@
       <changelist id="71ff8131-db37-4de2-8515-43dece525d84" name="Default" comment="" />
       <created>1410952746895</created>
       <updated>1410952746895</updated>
-      <workItem from="1410952325380" duration="893000" />
+      <workItem from="1410952325380" duration="1153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="893000" />
+    <option name="totallyTimeSpent" value="1153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="-4" width="1325" height="772" extended-state="6" />
