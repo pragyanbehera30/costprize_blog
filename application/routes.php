@@ -31,7 +31,6 @@
 |		});
 |
 */
-
 Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
