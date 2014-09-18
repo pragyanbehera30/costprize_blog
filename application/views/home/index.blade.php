@@ -60,13 +60,6 @@
                     <div class="row2">
                         <h2 class="subtitle">About <span>Us</span></h2>
 
-                        <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
-                            and typesetting industry. Lorem Ipsum has been the aaaa industry's
-                            standard dummy text ever since the 1500s, ass as dwhen an unknasdown
-                            printer took a galley of type and scrambled it to make a type
-                            speascimen book. <br>
-                            It has survived not only five centuries, but also the leap into
-                            electronic typesetting.and scrambled it to make a type speascimen book.</p>
 
                         <p>&nbsp;</p>
 

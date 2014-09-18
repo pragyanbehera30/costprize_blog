@@ -40,9 +40,6 @@ class Home_Controller extends Base_Controller
 
     public function get_index()
     {
-        $obj = new Home();
-        $qwe = $obj::all();
-        return View::make('home.index')
-            ->with('Pragyans', $qwe);
+        return View::make('home.index');
     }
 }

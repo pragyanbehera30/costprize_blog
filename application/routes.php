@@ -34,6 +34,8 @@
 Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
+Route::get('add_blog','add_blog@index');
+Route::post('add_blog/(:num)','add_blog@index');
 Route::get('edit_blog','edit_blog@index');
 Route::get('description','description@index');
 /*

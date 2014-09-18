@@ -8,11 +8,11 @@
 
 class Home extends Eloquent
 {
-    public static $table = 'aba_articleinfo';
+    public static $table = 'article_user';
 
     public function getAll()
     {
-        DB::table('aba_articleinfo')->get();
+        DB::table('article_user')->get();
         return Home::all();
     }
 
