@@ -32,7 +32,9 @@
 |
 */
 Route::get('/','home@index');
-
+Route::get('login','login@index');
+Route::post('login','login@index');
+Route::get('edit_blog','edit_blog@index');
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
