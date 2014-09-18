@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="IdProvider" IDEtalkID="823AA5B5251F0A0D11F4D06FFBC60459" />
+  <component name="IdProvider" IDEtalkID="8C830C878812C4A0152F11DEFACD7B61" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" />
   <component name="masterDetails">
     <states>
@@ -18,8 +17,5 @@
       </state>
     </states>
   </component>
-=======
-  <component name="ProjectRootManager" version="2" />
->>>>>>> a3712d9c0e65a37dbafd0b33d809df609b16ebaa
 </project>
 
