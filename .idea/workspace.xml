@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05398408-b1ea-447f-9f0d-d297de3288f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home/index.blade.php" afterPath="$PROJECT_DIR$/application/views/home/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="costprize_blog.iws" />
@@ -26,19 +28,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/home/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.05059022" vertical-offset="0" max-vertical-offset="593">
+            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.0344827" vertical-offset="0" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/local/database.php">
+      <file leaf-file-name="edit_blog.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/home/edit_blog.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="33" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-9.310345" vertical-offset="1980" max-vertical-offset="3930">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
+              <folding>
+                <marker date="1410958612831" expanded="true" signature="66:423" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="94:144" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="127:136" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="172:338" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="204:248" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="280:289" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="321:330" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="366:416" placeholder="..." />
+                <marker date="1410958612831" expanded="true" signature="399:408" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="14" selection-end="14" vertical-scroll-proportion="0.16759777" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -47,7 +68,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.103449" vertical-offset="612" max-vertical-offset="3480">
+            <state line="36" column="42" selection-start="990" selection-end="990" vertical-scroll-proportion="-17.172413" vertical-offset="582" max-vertical-offset="3480">
               <folding />
             </state>
           </provider>
@@ -56,7 +77,7 @@
       <file leaf-file-name="edit_blog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/edit_blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="480">
+            <state line="7" column="0" selection-start="66" selection-end="238" vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -78,8 +99,11 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/local/database.php" />
         <option value="$PROJECT_DIR$/application/controllers/edit_blog.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/application/controllers/index.php" />
+        <option value="$PROJECT_DIR$/application/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -149,42 +173,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="costprize_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="costprize_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="costprize_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="costprize_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -229,10 +217,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6388889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6388889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -302,30 +290,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.103449" vertical-offset="612" max-vertical-offset="3480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="27" selection-start="2304" selection-end="2304" vertical-scroll-proportion="0.30560273" vertical-offset="1980" max-vertical-offset="3930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/local/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="33" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-9.310345" vertical-offset="1980" max-vertical-offset="3930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/edit_blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
@@ -337,9 +304,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/edit_blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="66" selection-end="238" vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="42" selection-start="990" selection-end="990" vertical-scroll-proportion="-17.172413" vertical-offset="582" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/local/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="33" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.4787234" vertical-offset="1980" max-vertical-offset="3930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="2" selection-start="233" selection-end="233" vertical-scroll-proportion="0.5602716" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.0344827" vertical-offset="0" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/edit_blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding>
+            <marker date="1410958612831" expanded="true" signature="66:423" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="94:144" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="127:136" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="172:338" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="204:248" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="280:289" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="321:330" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="366:416" placeholder="..." />
+            <marker date="1410958612831" expanded="true" signature="399:408" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.05059022" vertical-offset="0" max-vertical-offset="593">
+        <state line="1" column="6" selection-start="14" selection-end="14" vertical-scroll-proportion="0.16759777" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
