@@ -70,9 +70,9 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => 'localhost',
-			'database' => '',
-			'username' => '',
-			'password' => '',
+			'database' => 'pragyan_db',
+			'username' => 'root',
+			'password' => 'root',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
