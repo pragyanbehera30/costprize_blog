@@ -13,19 +13,20 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	margin: 0px;
 }
 a {
-	color: #072FCF;
-	text-decoration: underline;
+	color: #000;
+	text-decoration: none;
 }
 a:hover {
-	color: #072FCF;
+	color: #072;
 	text-decoration: none;
 }
 .page-in {
-	background-image: url(http://localhost/costprize_blog/public/img/bottom-rept.jpg);
+	/*background-image: url(http://localhost/costprize_blog/public/img/bottom-rept.jpg);*/
 	background-repeat: repeat-x;
 	background-position: left bottom;
 	width: 100%;
 	float: left;
+    background-color: #fff;
 }
 .page {
 	width: 1000px;
@@ -305,5 +306,5 @@ a.more:hover {
 	text-decoration: none;
 }
 .footer ul li a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }

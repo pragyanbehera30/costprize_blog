@@ -1,0 +1,40 @@
+
+.menu1
+{
+    background-color: #4d5051;
+    height: 350px;
+    text-decoration: none;
+}
+.body
+{
+    border: 2px solid #333;
+    padding: 200px 400px;
+    background: #fff;
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.btn_move
+{
+    margin-left: 350px;
+}
+.form_move
+{
+    margin-left: 50px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.nav-pills>li>a {
+    border-radius: 1px;
+}
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: 15px;
+}
+
