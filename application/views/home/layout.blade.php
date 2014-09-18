@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>BLOG-Development</title>
     <!-- Bootstrap -->
     {{ HTML::style('css/bootstrap.min.css') }}
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -15,8 +15,7 @@
     <![endif]-->
 </head>
 <body>
-
-
+@_yield('content')
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
