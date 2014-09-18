@@ -1,1 +1,15 @@
+*.sublime-*
+nbproject/
+# OS generated files #
+######################
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.idea
 .idea/
+storage/
+application/config/local/
+*.orig

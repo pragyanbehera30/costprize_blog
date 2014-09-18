@@ -8,7 +8,7 @@
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-2 column">
-            <h1> laravel test</h1>
+            <h1> laravel test.....</h1>
 		</div>
 		<div class="col-md-6 column">
 		</div>
