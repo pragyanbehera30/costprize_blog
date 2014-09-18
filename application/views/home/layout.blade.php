@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BLOG-Development</title>
+    <link href='http://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <meta name="description" content="Description of your site goes here">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+
+    <title>Laravel Demo Template</title>
     <!-- Bootstrap -->
     {{ HTML::style('css/bootstrap.min.css') }}
+    {{ HTML::style('css/style.css') }}
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -15,7 +20,36 @@
     <![endif]-->
 </head>
 <body>
-@_yield('content')
+<div class="page-in">
+    <div class="page">
+        <div class="main">
+            <div class="header">
+                <div class="header-top">
+                    <h1>Article <span>World</span></h1>
+                </div>
+                <div class="header-bottom">
+                    <h2>Learn And Explore Yourself...</h2>
+                </div>
+                @_yield('content')
+
+                <div class="footer">
+                    <p>&copy; Copyright 2014. Designed by <a target="_blank"
+                                                             href="http://www.Costprize.com">Costprize.com</a>
+                    </p>
+                    <ul>
+                        <li style="border-left: medium none;"><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="#"><span>About&nbsp;us</span></a></li>
+                        <li><a href="#"><span>Contact</span></a></li>
+                    </ul>
+                </div>
+                <!--DO NOT Remove The Footer Links-->
+                <!--Designed by--><a href="http://www.htmltemplates.net">
+                    <img src="images/footnote.gif" class="copyright" alt="http://www.htmltemplates.net"></a>
+                <!--DO NOT Remove The Footer Links-->
+            </div>
+        </div>
+    </div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

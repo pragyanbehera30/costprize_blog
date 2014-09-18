@@ -19,22 +19,22 @@ class login_Controller extends Base_Controller
     public function post_index()
     {
         $inputs = Input::all();
-
-        $rules = array(
-            'AI_Username' => Input::get(),
-            'AI_Password' => Input::get()
-        );
-        $validation = Validator::make($inputs, $rules);
-
-        if ($validation->fails()) {
-            return Redirect::to('login')
-                ->with('errors', $validation->errors->all());
-        } else {
-            $obj = new Login();
-            $obj->postAll($inputs);
-            return Redirect::to('login')
-                ->with('success', 'You Are Logged In.');
+//
+//        $rules = array(
+//            'AI_Username' => Input::get(),
+//            'AI_Password' => Input::get()
+//        );
+//        $validation = Validator::make($inputs, $rules);
+//
+//        if ($validation->fails()) {
+//            return Redirect::to('login')
+//                ->with('errors', $validation->errors->all());
+//        } else {
+//            $obj = new Login();
+//            $obj->postAll($inputs);
+            return Redirect::to('description')
+                ->with('success', 'You Are Logged In As Admin.');
 
         }
-    }
+//    }
 }

@@ -35,6 +35,7 @@ Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
 Route::get('edit_blog','edit_blog@index');
+Route::get('description','description@index');
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
