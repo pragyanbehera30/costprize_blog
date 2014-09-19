@@ -32,7 +32,7 @@ class login_Controller extends Base_Controller
 //        } else {
 //            $obj = new Login();
 //            $obj->postAll($inputs);
-            return Redirect::to('description')
+            return Redirect::to('admin')
                 ->with('success', 'You Are Logged In As Admin.');
 
         }

@@ -37,4 +37,14 @@
     margin-right: -15px;
     margin-left: 15px;
 }
-
+.mainmenu, .contact {
+    width: 310px;
+    float: right;
+    margin-top: -200px;
+}
+.row1 {
+    width: 621px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 70px;
+}
