@@ -34,10 +34,18 @@
 Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
-Route::get('add_blog','add_blog@index');
-Route::post('add_blog/(:num)','add_blog@index');
-Route::get('edit_blog','edit_blog@index');
+Route::get('addblog','addblog@index');
+Route::post('addblog','addblog@index');
+Route::get('editblog','editblog@index');
+Route::post('editblog/(:num)','editblog@index');
+Route::get('deleteblog','deleteblog@index');;
+Route::post('deleteblog/(:num)','deleteblog@index');
 Route::get('description','description@index');
+Route::get('admin','admin@index');
+Route::post('admin','admin@index');
+Route::get('displayblog','displayblog@index');
+Route::post('displayblog','displayblog@index');
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

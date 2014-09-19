@@ -12,6 +12,27 @@
         margin-left: 70px;
         margin-top: 70px;
     }
+    .content {
+        background-color: #FFFFFF;
+        background-image: url(http://localhost/costprize_blog/public/img/body-top.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 952px;
+        float: left;
+        padding: 30px 24px 0px 24px;
+        margin-left: 180px;
+
+    }
+    .topmenu {
+        background-image: url(http://localhost/costprize_blog/public/img/menu-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 1000px;
+        height: 74px;
+        float: left;
+        margin-left: 155px;
+
+    }
 </style>
 <div class="topmenu">
     <ul>

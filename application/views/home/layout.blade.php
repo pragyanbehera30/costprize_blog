@@ -20,7 +20,45 @@
     <![endif]-->
 </head>
 <body>
+<style>
+.footer {
+line-height: 69px;
+background-image: url(http://localhost/costprize_blog/public/img/footer.jpg);
+background-repeat: no-repeat;
+background-position: left top;
+width: 952px;
+height: 69px;
+float: left;
+padding: 23px 24px 0px 24px;
+margin-left: 180px;
+}
+</style>
+<div class="page-in">
+    <div class="page">
+        <div class="main">
+            <div class="header">
+                <div class="header-top">
+                    <h1>Article <span>World</span></h1>
+                </div>
+                <div class="header-bottom">
+                    <h2>Learn And Explore Yourself...</h2>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @_yield('content')
+<div class="footer">
+    <p>&copy; Copyright 2014. Designed by <a target="_blank"
+                                             href="http://www.Costprize.com">Costprize.com</a>
+    </p>
+    <ul>
+        <li style="border-left: medium none;"><a href="{{ URL::to('/') }}"><span>Home</span></a></li>
+        <li><a href="#"><span>About&nbsp;us</span></a></li>
+        <li><a href="#"><span>Contact</span></a></li>
+    </ul>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

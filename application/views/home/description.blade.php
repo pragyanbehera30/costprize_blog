@@ -5,6 +5,39 @@
         width: 100%;
         margin-left: -80px;
     }
+    .row {
+        margin-right: -21px;
+        margin-left: 60px;
+        margin-top: 0px;
+
+    }
+    .row1 {
+        margin-right: -15px;
+        margin-left: 63px;
+        margin-top: -50px;
+
+    }
+    .content {
+        background-color: #FFFFFF;
+        background-image: url(http://localhost/costprize_blog/public/img/body-top.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 952px;
+        float: left;
+        padding: 30px 24px 0px 24px;
+        margin-left: 180px;
+
+    }
+    .topmenu {
+        background-image: url(http://localhost/costprize_blog/public/img/menu-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 1000px;
+        height: 74px;
+        float: left;
+        margin-left: 155px;
+
+    }
 </style>
 <div class="topmenu">
     <ul>
@@ -43,11 +76,11 @@
 
                         <div class="caption">
                             <h3>
-                                Isn’t technology wonderful...
+                                Forest In Winter
                             </h3>
                             <br>
                             <h5>
-                                Mary Angel
+                                Kay Deardorff
                             </h5>
                         </div>
                         <p>
@@ -58,18 +91,7 @@
                             available or not, I have reminded him.
                         </p>
 
-                        <p>
-                            I can remove so many things from my imaginary
-                            plate by texting and from the plates of my friends.While having lunch with a friend
-                            the
-                            other day she asked me to please text her to remind her to text someone else a
-                            question
-                            that has been looming over her head, and the third friend at the table asked that
-                            while
-                            I had my phone out could I please text her to remind her to ask her husband a
-                            question
-                            she has been forgetting for days. What a wonderful gift of technology.
-                        </p>
+
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -78,11 +100,11 @@
 
                         <div class="caption">
                             <h3>
-                                Isn’t technology wonderful...
+                                April left as a solar flare
                             </h3>
                             <br>
                             <h5>
-                                Mary Angel
+                                Christopher E. Alley
                             </h5>
                         </div>
                         <p>
@@ -93,23 +115,132 @@
                             available or not, I have reminded him.
                         </p>
 
-                        <p>
-                            I can remove so many things from my imaginary
-                            plate by texting and from the plates of my friends.While having lunch with a friend
-                            the
-                            other day she asked me to please text her to remind her to text someone else a
-                            question
-                            that has been looming over her head, and the third friend at the table asked that
-                            while
-                            I had my phone out could I please text her to remind her to ask her husband a
-                            question
-                            she has been forgetting for days. What a wonderful gift of technology.
-                        </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="thumbnail" align="center">
                         <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag4.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                35: A Milestone Birthday
+                            </h3>
+                            <br>
+                            <h5>
+                                Katherine Au
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream, whether he is
+                            available or not, I have reminded him.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag2.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                Managing the Holiday Blues
+                            </h3>
+                            <br>
+                            <h5>
+                                Bill Derbyshire
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream, whether he is
+                            available or not, I have reminded him.
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag6.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                Dreams Come in Three Phase
+                            </h3>
+                            <br>
+                            <h5>
+                                Cassie Frederick
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream, whether he is
+                            available or not, I have reminded him.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag1.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                Gettysburg’s "Oldest" Family
+                            </h3>
+                            <br>
+                            <h5>
+                                James H. Allison
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream, whether he is
+                            available or not, I have reminded him.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag7.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                The History of Harney
+                            </h3>
+                            <br>
+                            <h5>
+                                J. W. Beck
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream, whether he is
+                            available or not, I have reminded him.
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag8.jpg"/>
 
                         <div class="caption">
                             <h3>
@@ -124,22 +255,32 @@
                             Wonderful technology, well isn't it? When I want to remind my husband to pick up
                             milk on
                             his way home, or not to forget he promised to stop by his moms on his way home, then
+                            I just text him and all is taken care of. What a technological dream!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" align="center">
+                        <img alt="300x200" src="http://localhost/costprize_blog/public/img/prag9.jpg"/>
+
+                        <div class="caption">
+                            <h3>
+                                Never Say Never
+                            </h3>
+                            <br>
+                            <h5>
+                               Mary Angel
+                            </h5>
+                        </div>
+                        <p>
+                            Wonderful technology, well isn't it? When I want to remind my husband to pick up
+                            milk on
+                            his way home, or not to forget he promised to stop by his moms on his way home, then
                             I just text him and all is taken care of. What a technological dream, whether he is
                             available or not, I have reminded him.
                         </p>
 
-                        <p>
-                            I can remove so many things from my imaginary
-                            plate by texting and from the plates of my friends.While having lunch with a friend
-                            the
-                            other day she asked me to please text her to remind her to text someone else a
-                            question
-                            that has been looming over her head, and the third friend at the table asked that
-                            while
-                            I had my phone out could I please text her to remind her to ask her husband a
-                            question
-                            she has been forgetting for days. What a wonderful gift of technology.
-                        </p>
                     </div>
                 </div>
             </div>
