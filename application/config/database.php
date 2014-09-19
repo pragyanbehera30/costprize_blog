@@ -70,8 +70,8 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => 'localhost',
-			'database' => '',
-			'username' => '',
+			'database' => 'pragyan_db',
+			'username' => 'root',
 			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',

@@ -6,15 +6,18 @@ class EditBlog extends Eloquent
 
     public function postAll($inputs)
     {
-
-        DB::table('aba_articleinfo')
+//     dd($inputs);
+        $update = DB::table('aba_articleinfo')
             ->where('AI_ID', '=', $inputs ["article_id"])
-            ->update(array('AI_Title' => $inputs["article_title"],
+            ->update(
+                array('AI_Title' => $inputs["article_title"],
                     'AI_Author' => $inputs["author_name"],
-                    'AI_Desc' => $inputs["description"])
+                    'AI_Desc' => $inputs["description"]
+                )
             );
+        return $update;
     }
-    public static function getById($id)
+    public static function getById($id="")
     {
         $article = EditBlog::where('AI_ID', '=', $id)->first();
 //        dd($article);

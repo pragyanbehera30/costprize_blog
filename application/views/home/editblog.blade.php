@@ -3,6 +3,7 @@
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-12 column">
+
             <form class="form-horizontal" role="form" method="post" action="{{ URL::to('editblog') }}">
             @if(Session::has('errors'))
             <?php $errors = Session::get('errors');
@@ -26,7 +27,7 @@
                 </ul>
             </div>
             @endif
-               <input type="hidden" class="form-control" name="article_id" value="{{ $article_data->ai_id }}"/>
+               <input type="text" class="form-control" name="article_id" value="{{ $article_data->ai_id }}" readonly/>
                 <div class="form-group">
                     <label for="AI_Title" class="col-sm-2 control-label">Article Title</label>
                     <div class="col-sm-10">
@@ -44,8 +45,9 @@
                 <div class="form-group">
                     <label for="AI_Desc" class="col-sm-2 control-label"> Edit Your Text Here</label>
                     <div class="col-sm-10">
-                        <textarea rows="10" cols="63" name="description"
-                            value="{{ $article_data->ai_desc }}"> </textarea>
+                        <textarea rows="20" cols="82" name="description">
+                            {{ $article_data->ai_desc }}
+                        </textarea>
                     </div>
                 </div>
                 <div class="form-group">
