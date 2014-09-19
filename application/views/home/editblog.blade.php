@@ -27,7 +27,7 @@
                 </ul>
             </div>
             @endif
-               <input type="text" class="form-control" name="article_id" value="{{ $article_data->ai_id }}" readonly/>
+               <input type="hidden" class="form-control" name="article_id" value="{{ $article_data->ai_id }}"/>
                 <div class="form-group">
                     <label for="AI_Title" class="col-sm-2 control-label">Article Title</label>
                     <div class="col-sm-10">
