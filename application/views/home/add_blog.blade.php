@@ -30,7 +30,6 @@
                 </ul>
             </div>
             <br>
-
             <div class="col-md-10 column menu2">
                 <div class="form-inline">
                     <div class="form_move">
