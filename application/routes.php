@@ -34,17 +34,16 @@
 Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
-Route::get('addblog','addblog@index');
-Route::post('addblog','addblog@index');
-Route::get('editblog','editblog@index');
-Route::post('editblog/(:num)','editblog@index');
-Route::get('deleteblog','deleteblog@index');;
-Route::post('deleteblog/(:num)','deleteblog@index');
+Route::get('addblog','articleblog@index');
+Route::post('addblog','articleblog@index');
+Route::get('editblog/(:num)','articleblog@editarticle');
+Route::post('editblog','articleblog@editarticle');
+Route::get('deletearticle/(:num)','articleblog@deletedata');
 Route::get('description','description@index');
 Route::get('admin','admin@index');
 Route::post('admin','admin@index');
-Route::get('displayblog','displayblog@index');
-Route::post('displayblog','displayblog@index');
+Route::get('displayblog','articleblog@display');
+Route::post('displayblog','articleblog@display');
 
 /*
 |--------------------------------------------------------------------------
