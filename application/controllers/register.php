@@ -12,22 +12,26 @@ class Register_Controller extends Base_Controller {
         return View::make('home.register');
     }
 
-    public function post_index(){
+    public function post_registeruser(){
+//        dd(345);
         $inputs = Input::all();
-        dd($inputs);
+//        dd($inputs);
         $rules = array(
-            'article_title' => 'required|min:3',
-            'author_name' => 'required|min:3',
+            'username' => 'required|min:3|max:30',
+            'email' => 'required|min:3|max:30',
+            'password' => 'required|min:3|max:30',
+            'phone' => 'required|min:3|max:10',
+            'usertype' => 'required',
         );
         $validation = Validator::make($inputs, $rules);
 
         if ($validation->fails()) {
-            return Redirect::to('addblog')
+            return Redirect::to('register')
                 ->with('errors', $validation->errors->all());
         } else {
-            $obj= new Register();
+            $obj= new User();
             $obj->postAll($inputs);
-            return Redirect::to('addblog')
+            return Redirect::to('register')
                 ->with('success', 'Account Created Successfully.');
         }
     }

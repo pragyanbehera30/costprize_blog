@@ -45,8 +45,13 @@ Route::get('admin','admin@index');
 Route::post('admin','admin@index');
 Route::get('displayblog','displayblog@index');
 Route::post('displayblog','displayblog@index');
-Route::get('register','register@index');
-Route::post('registeruser','register@index');
+
+Route::get('register', function()
+{
+    return View::make('home.register');
+});
+
+Route::post('registeruser','register@registeruser');
 
 /*
 |--------------------------------------------------------------------------

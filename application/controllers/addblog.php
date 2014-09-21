@@ -12,7 +12,7 @@ class addblog_Controller extends Base_Controller
     public function post_index()
     {
         $inputs = Input::all();
-
+        dd($inputs);
         $rules = array(
             'article_title' => 'required|min:3',
             'author_name' => 'required|min:3',
