@@ -45,6 +45,8 @@ Route::get('admin','admin@index');
 Route::post('admin','admin@index');
 Route::get('displayblog','displayblog@index');
 Route::post('displayblog','displayblog@index');
+Route::get('register','register@index');
+Route::post('register','register@register');
 
 /*
 |--------------------------------------------------------------------------
