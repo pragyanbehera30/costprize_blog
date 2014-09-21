@@ -12,9 +12,9 @@ class Register_Controller extends Base_Controller {
         return View::make('home.register');
     }
 
-    public function get_register(){
+    public function post_index(){
         $inputs = Input::all();
-
+        dd($inputs);
         $rules = array(
             'article_title' => 'required|min:3',
             'author_name' => 'required|min:3',
@@ -25,12 +25,10 @@ class Register_Controller extends Base_Controller {
             return Redirect::to('addblog')
                 ->with('errors', $validation->errors->all());
         } else {
-            $obj= new AddBlog();
+            $obj= new Register();
             $obj->postAll($inputs);
             return Redirect::to('addblog')
-                ->with('success', 'Created Successfully.');
-
-
+                ->with('success', 'Account Created Successfully.');
         }
     }
 

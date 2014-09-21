@@ -27,8 +27,6 @@ class addblog_Controller extends Base_Controller
             $obj->postAll($inputs);
             return Redirect::to('addblog')
                 ->with('success', 'Created Successfully.');
-
-
         }
     }
 }
