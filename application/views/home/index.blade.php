@@ -36,7 +36,7 @@
                         <li><a href="#"><span>About&nbsp;us</span></a></li>
 
                         <li><a href="#"><span>Contact</span></a></li>
-                        <li><a href="{{ URL::to('login') }}"><span>Admin</span></a></li>
+                        <li><a href="{{ URL::to('login') }}"><span>Login</span></a></li>
                         <li><a href="{{URL::to('register') }}"><span>Register</span></a>/li>
                     </ul>
                 </div>

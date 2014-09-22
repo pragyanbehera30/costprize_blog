@@ -7,6 +7,7 @@
         margin-top: -160px;
         margin-right: 163px;
     }
+
     .alert {
         padding: 15px;
         margin-bottom: 20px;
@@ -15,14 +16,14 @@
         margin-left: 120px;
         margin-top: -55px;
     }
- </style>
+</style>
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
             <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="{{ URL::to('admin') }}"><span>Admin Panel</span></a></li>
         <li><a href="{{ URL::to('logout') }}"><span>Logout</span></a></li>
-<!--        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>-->
+        <!--        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>-->
     </ul>
 </div>
 
@@ -53,9 +54,7 @@
     <h2 class="sidebar1">Main Menu</h2>
     <ul>
         <li><a href="{{ URL::to('addblog') }}">Create Blog</a></li>
-        <!--        <li><a href="{{ URL::to('editblog') }}">Update Blog</a></li>-->
-        <!--        <li><a href="{{ URL::to('deleteblog') }}">Delete Blog</a></li>-->
-        <li><a href="{{ URL::to('displayblog') }}">Display Blog</a></li>
+        <li><a href="{{ URL::to('displayblog') }}">View Blog</a></li>
     </ul>
 </div>
 @endsection
