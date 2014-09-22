@@ -3,10 +3,11 @@ body {
 	font-size: 12px;
 	color: #4d5051;
 	background-color: #d6d6d6;
-	background-image: url(http://localhost/costprize_blog/public/img/top-rept.jpg);
+	/*background-image: url(http://localhost/costprize_blog/public/img/top-rept.jpg);*/
 	background-repeat: repeat-x;
 	background-position: left top;
 	margin: 0px;
+    background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
@@ -140,9 +141,9 @@ a:hover {
 	padding-right: 21px;
 }
 .row1 {
-	width: 100%;
+	width: 75%;
 	float: left;
-
+    margin-top: 77px;
 }
 .title {
 	font-family: Arial, Helvetica, sans-serif;
@@ -209,10 +210,11 @@ a.more:hover {
 	float: right;
 	padding-top: 7px;
 }
-.mainmenu, .contact {
-	width: 310px;
-	float: right;
-
+mainmenu, .contact {
+    width: 310px;
+    float: right;
+    margin-right: 180px;
+    margin-top: -155px;
 }
 
 .sidebar1 {

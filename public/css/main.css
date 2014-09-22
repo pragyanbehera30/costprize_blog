@@ -51,7 +51,8 @@
 .mainmenu, .contact {
     width: 310px;
     float: right;
-    margin-top: -200px;
+    margin-top: -215px;
+    margin-right: -37px;
 }
 .row1 {
     width: 621px;
@@ -78,15 +79,5 @@
     height: 74px;
     float: left;
     margin-left: 155px;
-}
-.content-left {
-    background-image: url(http://localhost/costprize_blog/public/img/vline.jpg);
-    background-repeat: repeat-y;
-    background-position: right top;
-    width: 621px;
-    float: left;
-    padding-right: 21px;
-    /* margin-right: 72px; */
-    margin-left: 0px;
-    margin-top: -10px;
+
 }

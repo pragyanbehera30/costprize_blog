@@ -36,16 +36,22 @@ Route::get('login','login@index');
 Route::post('login','login@index');
 Route::get('logout','logout@index');
 Route::get('resetpassword','resetpassword@index');
-Route::get('addblog','addblog@index');
-Route::post('addblog','addblog@index');
-Route::get('updateblog','updateblog@index');
-Route::post('updateblog/(:num)','updateblog@index');
-Route::get('deleteblog','deleteblog@index');;
-Route::post('deleteblog/(:num)','deleteblog@index');
+Route::get('addblog','articleblog@index');
+Route::post('addblog','articleblog@index');
+Route::get('editblog/(:num)','articleblog@editarticle');
+Route::post('editblog','articleblog@editarticle');
+Route::get('deletearticle/(:num)','articleblog@deletedata');
 Route::get('description','description@index');
 Route::get('admin','admin@index');
 Route::post('admin','admin@index');
-Route::get('displayblog','displayblog@index');
+Route::get('displayblog','articleblog@display');
+Route::post('displayblog','articleblog@display');
+Route::get('register', function()
+{
+    return View::make('home.register');
+});
+
+Route::post('registeruser','register@registeruser');
 
 /*
 |--------------------------------------------------------------------------

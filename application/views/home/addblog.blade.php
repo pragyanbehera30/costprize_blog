@@ -1,5 +1,39 @@
 @layout('home.layout')
 @section('content')
+<style>
+    .mainmenu, .contact {
+        width: 310px;
+        float: right;
+        margin-top: -200px;
+    }
+    .row1 {
+        width: 621px;
+        float: left;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+    .content {
+        background-color: #FFFFFF;
+        background-image: url(http://localhost/costprize_blog/public/img/body-top.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 952px;
+        float: left;
+        padding: 30px 24px 0px 24px;
+        margin-left: 180px;
+
+    }
+    .topmenu {
+        background-image: url(http://localhost/costprize_blog/public/img/menu-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 1000px;
+        height: 74px;
+        float: left;
+        margin-left: 155px;
+
+    }
+<!--</style>-->
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
@@ -24,7 +58,7 @@
             </div>
             @endif
             @if(Session::has('success'))
-            <?php $success = Session::get('success'); ?>
+            <?php $success = Session::get('success');?>
 
             <div class="alert alert-success" role="alert">
                 <ul>
@@ -54,7 +88,7 @@
                     <label for="AI_Desc" class="col-sm-2 control-label">Description</label>
 
                     <div class="col-sm-10">
-                        <textarea rows="10" cols="63" name="msg" value="{{ Input::old('msg') }}"> </textarea></div>
+                        <textarea rows="10" cols="63" name="description"> </textarea></div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">

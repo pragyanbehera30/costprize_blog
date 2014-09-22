@@ -7,8 +7,7 @@
     <link href='http://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <meta name="description" content="Description of your site goes here">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
-
-    <title>Laravel Demo Template</title>
+    <title>Blog Developers..!</title>
     <!-- Bootstrap -->
     {{ HTML::style('css/bootstrap.min.css') }}
     {{ HTML::style('css/main.css') }}
