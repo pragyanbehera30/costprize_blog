@@ -107,15 +107,21 @@
                         <div class="contact-detail">
                             <p class="green"><strong>Article World</strong></p>
 
-                            <p><strong>Adress :</strong> Lorem Ipsum has been the<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dummy
-                                text the 1500s,</p>
+                            Costprize Online India Ltd.<br>
+                            6/4, Legacy,
+                            Convent Road<br>
+                            Richmond Town,
+                            Bangalore - 560025 </p>
+                            <p><strong>Email :</strong><a href="mailto:feedback@startbootstrap.com">support@costprize.com</a><br>
+                                (For all issues that require the aid of our customer support.)</p>
+                            <p><strong>Email :</strong> <a href="mailto:feedback@startbootstrap.com">corporateinquiry@costprize.com</a><br>
+                                (For all inquiries pertaining to vendor collaboration.)</p>
 
-                            <p><strong>E-mail :</strong> &nbsp;&nbsp;&nbsp;when an unknown printer
-                                took a</p>
 
-                            <p><strong>Phone :</strong> &nbsp;&nbsp;&nbsp;00-0000000000<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;000-0000-0000
+                            <!--                            <p><strong>E-mail :</strong> &nbsp;&nbsp;&nbsp;when an unknown printer-->
+<!--                                took a</p>-->
+<!---->
+                            <p><strong>Phone :</strong> &nbsp;&nbsp;&nbsp; 080-67169666<br>
                             </p>
                         </div>
                     </div>
