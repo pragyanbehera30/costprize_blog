@@ -18,9 +18,9 @@ class Users extends Eloquent
             $data = Users::create(
                 array(
 //                'username' => $inputs["username"],
-//                'password' => $inputs["password"],
+                'password' => $inputs["password"],
                     'email' => $inputs["email"],
-                    'password' => Hash::make('$inputs["password"]'),
+//                    'password' => Hash::make('$inputs["password"]'),
 //                'phone' => $inputs["phone"],
 //                'usertype' => $inputs["usertype"]
                 )

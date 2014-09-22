@@ -99,27 +99,13 @@
 
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-success">Login</button>
-                    <button type="reset" class="btn btn-info">Reset</button>
+                    <button type="submit" class="btn btn-success">Update</button>
+<!--                    <button type="reset" class="btn btn-info">Reset</button>-->
                 </div>
             </div>
         </form>
         @endif
     </div>
-<!--    <div class="mainmenu">-->
-<!--        <h2 class="sidebar1">Main Menu</h2>-->
-<!--        <ul>-->
-<!--            <li><a href="{{ URL::to('description') }}">Isn’t technology wonderful..</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">April left as a solar flare</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">Never Say Never</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">35: A Milestone Birthday</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}" Gettysburg’s "Oldest" Family</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">The History of Harney</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">Forest in the Winter</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">Managing the Holiday Blues</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">Dreams Come in Three Phase</a></li>-->
-<!--            <li><a href="{{ URL::to('description') }}">We Are Once in a Lifetime</a></li>-->
-<!--        </ul>-->
-<!--    </div>-->
+
 </div>
 @endsection
