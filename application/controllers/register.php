@@ -29,6 +29,7 @@ class Register_Controller extends Base_Controller {
             return Redirect::to('register')
                 ->with('errors', $validation->errors->all());
         } else {
+         
             $obj= new Users();
             $obj->postAll($inputs);
             return Redirect::to('register')
