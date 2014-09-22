@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Laravel Demo Template</title>
+    <title>Blog-Developers Site</title>
     <link href='http://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <meta name="description" content="Description of your site goes here">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
@@ -24,6 +24,7 @@
                         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
                             <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
                         <li><a href="#"><span>About&nbsp;us</span></a></li>
+                        <li><a href="{{ URL::to('admin') }}"><span>Admin</span></a></li>
                         <li><a href="#"><span>Contact</span></a></li>
                         <li><a href="{{ URL::to('login') }}"><span>Login</span></a></li>
                         <li><a href="{{URL::to('register') }}"><span>Register</span></a>/li>
