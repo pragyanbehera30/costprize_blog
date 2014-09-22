@@ -129,6 +129,7 @@ a:hover {
 	width: 952px;
 	float: left;
 	padding: 30px 24px 0px 24px;
+
  }
 .content-left {
 	background-image: url(http://localhost/costprize_blog/public/img/vline.jpg);
@@ -213,14 +214,7 @@ a.more:hover {
 	float: right;
 
 }
-/*.desc*/
-/*{*/
-    /*border: 2px solid #333;*/
-    /*padding: 200px 400px;*/
-    /*background: #fff;*/
-    /*width: 70%;*/
-    /*border-radius: 15px;*/
-/*}*/
+
 .sidebar1 {
 	font-size: 18px;
 	line-height: 50px;
@@ -318,3 +312,36 @@ a.more:hover {
 .footer ul li a:hover {
 	text-decoration: none;
 }
+
+ /*.mainmenu, .contact {*/
+     /*width: 310px;*/
+     /*float: right;*/
+     /*margin-top: -200px;*/
+ /*}*/
+/*.row1 {*/
+    /*width: 621px;*/
+    /*float: left;*/
+    /*margin-left: 70px;*/
+    /*margin-top: 70px;*/
+/*}*/
+/*.content {*/
+    /*background-color: #FFFFFF;*/
+    /*background-image: url(http://localhost/costprize_blog/public/img/body-top.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left top;*/
+    /*width: 952px;*/
+    /*float: left;*/
+    /*padding: 30px 24px 0px 24px;*/
+    /*margin-left: 180px;*/
+
+/*}*/
+/*.topmenu {*/
+    /*background-image: url(http://localhost/costprize_blog/public/img/menu-bg.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left top;*/
+    /*width: 1000px;*/
+    /*height: 74px;*/
+    /*float: left;*/
+    /*margin-left: 155px;*/
+
+/*}*/

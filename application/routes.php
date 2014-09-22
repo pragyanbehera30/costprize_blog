@@ -34,16 +34,19 @@
 Route::get('/','home@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
+Route::get('logout','logout@index');
+Route::get('resetpassword','resetpassword@index');
 Route::get('addblog','addblog@index');
-Route::post('addblog/(:num)','addblog@index');
-Route::get('editblog','editblog@index');
-Route::post('editblog/(:num)','editblog@index');
+Route::post('addblog','addblog@index');
+Route::get('updateblog','updateblog@index');
+Route::post('updateblog/(:num)','updateblog@index');
 Route::get('deleteblog','deleteblog@index');;
 Route::post('deleteblog/(:num)','deleteblog@index');
 Route::get('description','description@index');
 Route::get('admin','admin@index');
 Route::post('admin','admin@index');
 Route::get('displayblog','displayblog@index');
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

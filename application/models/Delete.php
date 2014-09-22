@@ -5,7 +5,7 @@
  * Date: 18/9/14
  * Time: 7:54 PM
  */
-class DeleteBlog extends Eloquent
+class Delete extends Eloquent
 {
     public static $table = 'aba_articleinfo';
 
@@ -18,7 +18,7 @@ class DeleteBlog extends Eloquent
 
     public static function getById($id)
     {
-        $article = DeleteBlog::where('AI_ID', '=', $id)->first();
+        $article = Delete::where('AI_ID', '=', $id)->first();
         return $article;
 
     }

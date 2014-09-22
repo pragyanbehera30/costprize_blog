@@ -55,7 +55,7 @@ margin-left: 180px;
                                              href="http://www.Costprize.com">Costprize.com</a>
     </p>
     <ul>
-        <li style="border-left: medium none;"><a href="{{ URL::to('/') }}"><span>Home</span></a></li>
+        <li style="border-left: medium none;"><a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="#"><span>About&nbsp;us</span></a></li>
         <li><a href="#"><span>Contact</span></a></li>
     </ul>

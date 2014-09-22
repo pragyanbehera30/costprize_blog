@@ -14,8 +14,9 @@ class addblog_Controller extends Base_Controller
         $inputs = Input::all();
 
         $rules = array(
-            'article_title' => 'required|min:3',
-            'author_name' => 'required|min:3',
+            'username' => 'required|min:3',
+            'password' => 'required|min:3',
+            'msg' =>'required|min:3'
         );
         $validation = Validator::make($inputs, $rules);
 

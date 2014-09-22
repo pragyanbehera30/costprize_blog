@@ -45,18 +45,18 @@
         width: 75%;
         margin-top: -60px;
     }
-  </style>
+</style>
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
             <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="{{ URL::to('login') }}"><span>Login</span></a></li>
-
+        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>
     </ul>
 </div>
 <div class="content">
     <div class="row1">
-        @if (Auth::guest())
+
         @if(Session::has('errors'))
         <?php $errors = Session::get('errors');
         ?>
@@ -81,7 +81,7 @@
         </div>
         @endif
         <form class="form-horizontal" role="form" method="post"
-              action="{{ URL::to('login') }}">
+              action="{{ URL::to('resetpassword') }}">
             <div class="form-group">
                 <label for="email" class="col-sm-2 control-label">Username</label>
 
@@ -100,26 +100,26 @@
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <button type="submit" class="btn btn-success">Login</button>
-<!--                    <button type="submit" class="btn btn-primary"><a href="{{ URL::to('login') }}">Reset Password</a></button>-->
+                    <button type="reset" class="btn btn-info">Reset</button>
                 </div>
             </div>
         </form>
         @endif
     </div>
-    <div class="mainmenu">
-        <h2 class="sidebar1">Main Menu</h2>
-        <ul>
-            <li><a href="{{ URL::to('description') }}">Isn’t technology wonderful..</a></li>
-            <li><a href="{{ URL::to('description') }}">April left as a solar flare</a></li>
-            <li><a href="{{ URL::to('description') }}">Never Say Never</a></li>
-            <li><a href="{{ URL::to('description') }}">35: A Milestone Birthday</a></li>
-            <li><a href="{{ URL::to('description') }}" Gettysburg’s "Oldest" Family</a></li>
-            <li><a href="{{ URL::to('description') }}">The History of Harney</a></li>
-            <li><a href="{{ URL::to('description') }}">Forest in the Winter</a></li>
-            <li><a href="{{ URL::to('description') }}">Managing the Holiday Blues</a></li>
-            <li><a href="{{ URL::to('description') }}">Dreams Come in Three Phase</a></li>
-            <li><a href="{{ URL::to('description') }}">We Are Once in a Lifetime</a></li>
-        </ul>
-    </div>
+<!--    <div class="mainmenu">-->
+<!--        <h2 class="sidebar1">Main Menu</h2>-->
+<!--        <ul>-->
+<!--            <li><a href="{{ URL::to('description') }}">Isn’t technology wonderful..</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">April left as a solar flare</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">Never Say Never</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">35: A Milestone Birthday</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}" Gettysburg’s "Oldest" Family</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">The History of Harney</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">Forest in the Winter</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">Managing the Holiday Blues</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">Dreams Come in Three Phase</a></li>-->
+<!--            <li><a href="{{ URL::to('description') }}">We Are Once in a Lifetime</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
 </div>
 @endsection

@@ -22,7 +22,7 @@
                 <div class="topmenu">
                     <ul>
                         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
-                            <a href="{{ URL::to('/') }}"><span>Home</span></a></li>
+                            <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
                         <li><a href="#"><span>About&nbsp;us</span></a></li>
                         <li><a href="#"><span>Contact</span></a></li>
                         <li><a href="{{ URL::to('login') }}"><span>Login</span></a></li>
@@ -114,7 +114,7 @@
                                                          href="http://www.Costprize.com">Costprize.com</a>
                 </p>
                 <ul>
-                    <li style="border-left: medium none;"><a href="{{ URL::to('/') }}"><span>Home</span></a></li>
+                    <li style="border-left: medium none;"><a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
                     <li><a href="#"><span>About&nbsp;us</span></a></li>
                     <li><a href="#"><span>Contact</span></a></li>
                 </ul>

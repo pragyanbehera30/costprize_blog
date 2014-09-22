@@ -28,7 +28,7 @@
         float: left;
         padding: 30px 24px 0px 24px;
         margin-left: 180px;
-
+        margin-top: 0px;
     }
 
     .topmenu {
@@ -45,17 +45,20 @@
     .mainmenu, .contact {
         width: 310px;
         float: right;
-        margin-right: 180px;
-        margin-top: -172px;
+        margin-right: 12px;
+        margin-top: -155px;
     }
 </style>
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
-            <a href="{{ URL::to('index') }}"><span>Home</span></a></li>
+            <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="{{ URL::to('admin') }}"><span>Admin Panel</span></a></li>
-    </ul>
+        <li><a href="{{ URL::to('logout') }}"><span>Logout</span></a></li>
+        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>
+  </ul>
 </div>
+
 <div class="row1">
     @if(Session::has('errors'))
     <?php $errors = Session::get('errors');
@@ -77,19 +80,20 @@
     @endif
 </div>
 <div class="content">
-    <div class="content-left">
-        <div class="row1">
-            <img src="http://localhost/costprize_blog/public/img/Banner_6.jpg">
-        </div>
+
+    <div class="row1">
+        <img src="http://localhost/costprize_blog/public/img/Banner_6.jpg">
     </div>
-</div>
-<div class="mainmenu">
-    <h2 class="sidebar1">Main Menu</h2>
-    <ul>
-        <li><a href="{{ URL::to('addblog') }}">Create Blog</a></li>
-        <li><a href="{{ URL::to('editblog') }}">Update Blog</a></li>
-        <li><a href="{{ URL::to('deleteblog') }}">Delete Blog</a></li>
-        <li><a href="{{ URL::to('displayblog') }}">Display Blog</a></li>
-    </ul>
+
+
+    <div class="mainmenu">
+        <h2 class="sidebar1">Main Menu</h2>
+        <ul>
+            <li><a href="{{ URL::to('addblog') }}">Create Blog</a></li>
+            <li><a href="{{ URL::to('updateblog') }}">Update Blog</a></li>
+            <li><a href="{{ URL::to('deleteblog') }}">Delete Blog</a></li>
+            <li><a href="{{ URL::to('displayblog') }}">Display Blog</a></li>
+        </ul>
+    </div>
 </div>
 @endsection

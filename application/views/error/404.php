@@ -117,7 +117,7 @@
 			</p>
 
 			<p>
-				Perhaps you would like to go to our <?php echo HTML::link('/', 'home page'); ?>?
+				Perhaps you would like to go to our <?php echo HTML::link('http://localhost/costprize_blog/public/', 'home page'); ?>?
 			</p>
 		</div>
 	</div>

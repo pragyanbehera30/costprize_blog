@@ -6,21 +6,21 @@
  * Time: 7:55 PM
  */
 
-class deleteblog_Controller extends Base_Controller
+class delete_Controller extends Base_Controller
 {
 
     public $restful = true;
 
     public function get_index($id)
     {
-        return View::make('home.deleteblog')
+        return View::make('home.delete')
             ->with('article_id',$id);
     }
 
     public function post_index()
     {
         $inputs = Input::all();
-        $obj = new DeleteBlog();
+        $obj = new Delete();
         $obj->postAll($inputs);
         return Redirect::to('displayblog')
             ->with('success', ' Data Deleted Successfully.');

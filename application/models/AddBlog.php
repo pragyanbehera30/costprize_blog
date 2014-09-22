@@ -10,7 +10,8 @@ class AddBlog extends Eloquent
         $table = AddBlog::create(
             array(
                 'AI_Title' => $inputs["article_title"],
-                'AI_Author' => $inputs["author_name"]
+                'AI_Author' => $inputs["author_name"],
+                'AI_Desc' => $inputs["msg"]
             )
         );
         return $table;

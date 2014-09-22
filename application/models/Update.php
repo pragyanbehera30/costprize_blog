@@ -1,5 +1,5 @@
 <?php
-class EditBlog extends Eloquent
+class Update extends Eloquent
 {
     public static $table = 'aba_articleinfo';
 
@@ -15,7 +15,7 @@ class EditBlog extends Eloquent
 
     public static function getById($id)
     {
-        $article = EditBlog::where('AI_ID', '=', $id)->first();
+        $article = Update::where('AI_ID', '=', $id)->first();
         return $article;
     }
 }

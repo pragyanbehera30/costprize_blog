@@ -1,14 +1,14 @@
 <?php
-class editblog_Controller extends Base_Controller
+class update_Controller extends Base_Controller
 {
 
     public $restful = true;
 
     public function get_index($id)
     {
-        $article = EditBlog::getById($id);
+        $article = Edit::getById($id);
 
-        return View::make('home.editblog')
+        return View::make('home.update')
             ->with('article_data',$article);
     }
 
@@ -25,7 +25,7 @@ class editblog_Controller extends Base_Controller
             return Redirect::to('displayblog')
                 ->with('errors', $validation->errors->all());
         } else {
-            $obj= new EditBlog();
+            $obj= new Update();
             $obj->postAll($inputs);
             return Redirect::to('displayblog')
                 ->with('success', 'Data Updated Successfully.');
