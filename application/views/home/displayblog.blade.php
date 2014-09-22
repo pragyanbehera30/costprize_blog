@@ -60,10 +60,9 @@
                         </td>
                         <td>
                             <a href='{{ URL::to("deletearticle/$Pragyan->ai_id") }}'>
+                                <span class="glyphicon glyphicon-remove">&nbsp;DELETE</span>
 
-                                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="$Pragyan->ai_id">
-                                    <span class="glyphicon glyphicon-remove">&nbsp;DELETE</span>
-                                </button>
+                                
                                 <!-- Modal -->
                                 <div class="modal fade" id="$Pragyan->ai_id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">

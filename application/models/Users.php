@@ -5,18 +5,18 @@
  * Time: 9:01 PM
  */
 
-class User extends Eloquent{
-    public static $table = 'user';
+class Users extends Eloquent{
+    public static $table = 'users';
 
     public function postAll($inputs)
     {
-        $data = User::create(
+        $data = Users::create(
             array(
-                'username' => $inputs["username"],
+//                'username' => $inputs["username"],
                 'password' => $inputs["password"],
                 'email' => $inputs["email"],
-                'phone' => $inputs["phone"],
-                'usertype' => $inputs["usertype"]
+//                'phone' => $inputs["phone"],
+//                'usertype' => $inputs["usertype"]
             )
         );
         return $data;

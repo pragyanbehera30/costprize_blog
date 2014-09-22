@@ -17,11 +17,11 @@ class Register_Controller extends Base_Controller {
         $inputs = Input::all();
 //        dd($inputs);
         $rules = array(
-            'username' => 'required|min:3|max:30',
+//            'username' => 'required|min:3|max:30',
             'email' => 'required|min:3|max:30',
             'password' => 'required|min:3|max:30',
-            'phone' => 'required|min:3|max:10',
-            'usertype' => 'required',
+//            'phone' => 'required|min:3|max:10',
+//            'usertype' => 'required',
         );
         $validation = Validator::make($inputs, $rules);
 
@@ -29,7 +29,7 @@ class Register_Controller extends Base_Controller {
             return Redirect::to('register')
                 ->with('errors', $validation->errors->all());
         } else {
-            $obj= new User();
+            $obj= new Users();
             $obj->postAll($inputs);
             return Redirect::to('register')
                 ->with('success', 'Account Created Successfully.');
