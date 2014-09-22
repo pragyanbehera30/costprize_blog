@@ -45,6 +45,13 @@ Route::post('admin','admin@index');
 Route::get('displayblog','articleblog@display');
 Route::post('displayblog','articleblog@display');
 
+Route::get('register', function()
+{
+    return View::make('home.register');
+});
+
+Route::post('registeruser','register@registeruser');
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
