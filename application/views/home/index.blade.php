@@ -2,13 +2,22 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Blog-Developers Site</title>
+    <title>Laravel Demo Site...</title>
     <link href='http://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <meta name="description" content="Description of your site goes here">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<style>
+    .mainmenu, .contact {
+        width: 310px;
+        float: right;
+        margin-right: 180px;
+        margin-top: 4px;
+        margin-right: -4px;
+    }
+</style>
 <div class="page-in">
     <div class="page">
         <div class="main">
@@ -22,11 +31,12 @@
                 <div class="topmenu">
                     <ul>
                         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
-                            <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
+                            <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a>
+                        </li>
                         <li><a href="#"><span>About&nbsp;us</span></a></li>
-                        <li><a href="{{ URL::to('admin') }}"><span>Admin</span></a></li>
+
                         <li><a href="#"><span>Contact</span></a></li>
-                        <li><a href="{{ URL::to('login') }}"><span>Login</span></a></li>
+                        <li><a href="{{ URL::to('login') }}"><span>Admin</span></a></li>
                         <li><a href="{{URL::to('register') }}"><span>Register</span></a>/li>
                     </ul>
                 </div>
@@ -116,7 +126,8 @@
                                                          href="http://www.Costprize.com">Costprize.com</a>
                 </p>
                 <ul>
-                    <li style="border-left: medium none;"><a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
+                    <li style="border-left: medium none;"><a
+                            href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
                     <li><a href="#"><span>About&nbsp;us</span></a></li>
                     <li><a href="#"><span>Contact</span></a></li>
                 </ul>

@@ -22,7 +22,7 @@
             <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="{{ URL::to('admin') }}"><span>Admin Panel</span></a></li>
         <li><a href="{{ URL::to('logout') }}"><span>Logout</span></a></li>
-        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>
+<!--        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>-->
     </ul>
 </div>
 
