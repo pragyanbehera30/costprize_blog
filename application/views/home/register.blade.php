@@ -3,17 +3,31 @@
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-8 column"  style="margin: 40px 0 10px 40px">
-            <div class="alert alert-danger" role="alert">
+<!--            <div class="alert alert-danger" role="alert">-->
                 <ol>
-                   @if( is_array($errors))
-                        @foreach($errors as $value)
-                            <li>{{$value}}</li>
-                        @endforeach
-                    @else
-                        Fill The Form To Register
+                    @if(Session::has('errors'))
+                    <?php $errors = Session::get('errors');
+                    ?>
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            @foreach($errors as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    @endif
+                    @if(Session::has('success'))
+                    <?php $success = Session::get('success'); ?>
+                    <div class="alert alert-success" role="alert">
+                        <ul>
+                            <li>
+                                {{ $success }}
+                            </li>
+                        </ul>
+                    </div>
                     @endif
                 </ol>
-            </div>
+<!--            </div>-->
             <form action="registeruser" method="POST" class="form-horizontal" role="form">
 <!--                <div class="form-group">-->
 <!--                    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>-->

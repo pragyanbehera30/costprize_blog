@@ -44,7 +44,6 @@ Route::get('admin','admin@index');
 Route::post('admin','admin@index');
 Route::get('displayblog','articleblog@display');
 Route::post('displayblog','articleblog@display');
-
 Route::get('register', function()
 {
     return View::make('home.register');
