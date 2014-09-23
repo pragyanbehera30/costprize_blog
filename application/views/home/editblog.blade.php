@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="AI_Desc" class="col-sm-2 control-label"> Edit Your Text Here</label>
+                    <label for="AI_Desc" class="col-sm-2 control-label"> Description</label>
                     <div class="col-sm-10">
                         <textarea rows="10" cols="63" name="description">{{ $article_data->ai_desc }}</textarea>
                     </div>
