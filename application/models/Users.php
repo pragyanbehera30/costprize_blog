@@ -25,7 +25,7 @@ class Users extends Eloquent
             );
             return $data;
         } else {
-            echo ('User already exists..!!!');
+            return false;
         }
     }
 

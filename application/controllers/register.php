@@ -31,9 +31,14 @@ class Register_Controller extends Base_Controller {
         }
         else {
             $obj= new Users();
-            $obj->postAll($inputs);
-            return Redirect::to('register')
+            $reg = $obj->postAll($inputs);
+            if($reg){
+            return  Redirect::to('register')
                 ->with('success', 'Account Created Successfully!');
+            }else{
+                return  Redirect::to('register')
+                    ->with('success', 'Account Created Exists!');
+            }
         }
     }
 
