@@ -32,12 +32,10 @@
 |
 */
 Route::get('/','home@index');
+Route::get('description','description@index');
 Route::get('login','login@index');
 Route::post('login','login@index');
 Route::get('logout','logout@index');
-Route::get('description','description@index');
-Route::get('admin','admin@index');
-Route::post('admin','admin@index');
 Route::get('register', function()
 {
     return View::make('home.register');
@@ -56,6 +54,8 @@ Route::group(array('before' => 'auth'), function()
     Route::post('displayblog','articleblog@display');
     Route::get('resetpassword','resetpassword@index');
     Route::post('resetpassword','resetpassword@index');
+    Route::get('admin','admin@index');
+    Route::post('admin','admin@index');
 });
 /*
 |--------------------------------------------------------------------------
