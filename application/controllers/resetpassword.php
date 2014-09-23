@@ -30,7 +30,7 @@ class resetpassword_Controller extends Base_Controller
         );
         $validator = Validator::make($inputs, $rules);
         if ($validator->fails()) {
-            dd($validator->errors->all());
+//            dd($validator->errors->all());
             return Redirect::to('resetpassword')
                 ->with('errors', 'Enter Correct password!');
         } else {
