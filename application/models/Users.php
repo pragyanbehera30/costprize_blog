@@ -18,16 +18,15 @@ class Users extends Eloquent
                 array(
 //                'username' => $inputs["username"],
                 'password' => $inputs["password"],
-                    'email' => $inputs["email"],
-//                    'password' => Hash::make('$inputs["password"]'),
+                    'email' => $inputs["email"]
 //                'phone' => $inputs["phone"],
 //                'usertype' => $inputs["usertype"]
                 )
             );
             return $data;
         } else {
-            echo('User already exists..!!!');
+            echo ('User already exists..!!!');
         }
     }
 
-} 
+}

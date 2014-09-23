@@ -1,5 +1,4 @@
 <?php
-
 /**
  * User: Pragyan
  * Author: Pragyan
@@ -19,12 +18,10 @@ class login_Controller extends Base_Controller
     public function post_index()
     {
         $inputs = Input::all();
-
         $credentials = array(
             'username' => $inputs['username'],
             'password' => $inputs['password']
         );
-
         Auth::attempt($credentials);
         if (Auth::check()) {
             return Redirect::to('admin')
@@ -32,7 +29,6 @@ class login_Controller extends Base_Controller
         } else {
             return Redirect::to('login')
                 ->with('errors', 'Username Or Password Incorrect!');
-
         }
 
     }
