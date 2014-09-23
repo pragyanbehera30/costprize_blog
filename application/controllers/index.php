@@ -1,12 +1,10 @@
 <?php
 /**
- 
- * User: Swapna
+ * User: Pragyan
+ * Author: Pragyan
  * Date: 18/9/14
- * Time: 11:05 AM
+ * Time: 7:34 PM
  */
-
-
 class index_Controller extends Base_Controller
 {
     public $restful = true;
