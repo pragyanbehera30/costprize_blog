@@ -51,7 +51,7 @@ margin-left: 180px;
 @_yield('content')
 <div class="footer">
     <p>&copy; Copyright 2014. Designed by <a target="_blank"
-                                             href="http://www.Costprize.com">Costprize.com</a>
+                                             href="http://www.costprize.com">Costprize.com</a>
     </p>
     <ul>
         <li style="border-left: medium none;"><a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
