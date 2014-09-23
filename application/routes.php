@@ -36,12 +36,9 @@ Route::get('login','login@index');
 Route::post('login','login@index');
 Route::get('logout','logout@index');
 Route::get('resetpassword','resetpassword@index');
-
 Route::get('description','description@index');
 Route::get('admin','admin@index');
 Route::post('admin','admin@index');
-Route::get('displayblog','articleblog@display');
-Route::post('displayblog','articleblog@display');
 Route::get('register', function()
 {
     return View::make('home.register');
@@ -56,7 +53,8 @@ Route::group(array('before' => 'auth'), function()
     Route::get('editblog/(:num)','articleblog@editarticle');
     Route::post('editblog','articleblog@editarticle');
     Route::get('deletearticle/(:num)','articleblog@deletedata');
-
+    Route::get('displayblog','articleblog@display');
+    Route::post('displayblog','articleblog@display');
 });
 /*
 |--------------------------------------------------------------------------
