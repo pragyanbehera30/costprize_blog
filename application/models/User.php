@@ -1,11 +1,10 @@
 <?php
 /**
- 
- * User: Swapna
- * Date: 22/9/14
- * Time: 5:39 PM
+ * User: Pragyan
+ * Author: Pragyan
+ * Date: 18/9/14
+ * Time: 12:23 PM
  */
-
 class User extends Eloquent {
 
 } 
