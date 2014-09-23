@@ -50,8 +50,7 @@
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
-            <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
-        <li><a href="{{ URL::to('admin') }}"><span>Admin</span></a></li>
+            <a href="{{ URL::to('admin') }}"><span>Admin</span></a></li>
         <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>
     </ul>
 </div>
@@ -82,9 +81,9 @@
                 </div>
                 @endif
             </ol>
-<!--            <div class="container">-->
-<!--            --><?php //echo 'Hey! ' . Auth::User()->email; ?>
-<!--            </div>-->
+            <!--            <div class="container">-->
+            <!--            --><?php //echo 'Hey! ' . Auth::User()->email; ?>
+            <!--            </div>-->
             <form action="{{ URL::to('resetpassword') }}" method="POST" class="form-horizontal" role="form">
                 <input type="hidden" class="form-control" name="id" value="{{$id  }}"/>
 
