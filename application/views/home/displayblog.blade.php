@@ -70,7 +70,7 @@
                             </a>
                         </td>
                         <td>
-                            <a href='{{ URL::to("deletearticle/$Pragyan->ai_id") }}' onclick="myFunction()">
+                            <a href='{{ URL::to("deletearticle/$Pragyan->ai_id") }}' onclick="return myFunction()">
                                 <span class="glyphicon glyphicon-remove">&nbsp;DELETE</span>
                             </a>
                         </td>
@@ -83,7 +83,10 @@
     </div>
 </div>
 <script>function myFunction() {
-        confirm("Ae you sure..?");
+        if (confirm("Ae you sure..?"))
+            return true;
+        else
+            return false;
     }
 </script>
 @endsection
