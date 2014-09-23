@@ -10,8 +10,7 @@
 </div>
 <div class="container">
     <div class="row clearfix">
-        <div class="col-md-8 column" style="margin: 40px 0 10px 40px">
-
+        <div class="col-md-10 column" style="margin: 40px 0 10px 40px">
             <ol>
                 @if(Session::has('errors'))
                 <?php $errors = Session::get('errors');
@@ -34,7 +33,6 @@
                     </ul>
                 </div>
                 @endif
-
             </ol>
             <!--            </div>-->
             <form action="registeruser" method="POST" class="form-horizontal" role="form" name="frm">
@@ -59,7 +57,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">Confirm-Password</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">Re-enter Password</label>
 
                     <div class="col-sm-10">
                         <input class="form-control" id="inputPassword3" type="password" name="cnmpwd"/>
@@ -83,14 +81,13 @@
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <!--                        <button type="submit" class="btn btn-default">Sign in</button>-->
-                        <input type="submit" class="btn btn-default" value="Sign in" onSubmit="return confirm_pwd();"/>
+                        <input type="submit" class="btn btn-default" value="Register" onsubmit="return confirm_pwd();"/>
                         <button type="reset" class="btn btn-info">Reset</button>
                     </div>
                 </div>
             </form>
-
         </div>
-        <div class="col-md-4 column">
+        <div class="col-md-2 column">
         </div>
     </div>
 </div>
@@ -100,10 +97,10 @@
         $pwd = document.frm.getElementsByName('password');
         $cnmpwd = document.frm.getElementsByName('cnmpwd');
         console.log($pwd);
-//        if ($pwd == $cnmpwd)
-//            return true;
-//        else
-//            return false;
+        if ($pwd == $cnmpwd)
+            return true;
+        else
+            return false;
 
     }
 </script>
