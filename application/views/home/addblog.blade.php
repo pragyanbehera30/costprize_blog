@@ -33,7 +33,7 @@
         margin-left: 155px;
 
     }
-<!--</style>-->
+</style>
 <div class="topmenu">
     <ul>
         <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px">
@@ -41,6 +41,7 @@
         <li><a href="{{ URL::to('admin') }}"><span>Admin Panel</span></a></li>
         <li><a href="{{ URL::to('displayblog') }}"><span>View</span></a></li>
         <li><a href="{{ URL::to('addblog') }}"><span>Create</span></a></li>
+        <li><a href="{{ URL::to('logout') }}"><span>Logout</span></a></li>
     </ul>
 </div>
 <div class="container">

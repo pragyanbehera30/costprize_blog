@@ -36,11 +36,7 @@ Route::get('login','login@index');
 Route::post('login','login@index');
 Route::get('logout','logout@index');
 Route::get('resetpassword','resetpassword@index');
-Route::get('addblog','articleblog@index');
-Route::post('addblog','articleblog@index');
-Route::get('editblog/(:num)','articleblog@editarticle');
-Route::post('editblog','articleblog@editarticle');
-Route::get('deletearticle/(:num)','articleblog@deletedata');
+
 Route::get('description','description@index');
 Route::get('admin','admin@index');
 Route::post('admin','admin@index');
@@ -52,7 +48,16 @@ Route::get('register', function()
 });
 
 Route::post('registeruser','register@registeruser');
+//Auth group
+Route::group(array('before' => 'auth'), function()
+{
+    Route::get('addblog','articleblog@index');
+    Route::post('addblog','articleblog@index');
+    Route::get('editblog/(:num)','articleblog@editarticle');
+    Route::post('editblog','articleblog@editarticle');
+    Route::get('deletearticle/(:num)','articleblog@deletedata');
 
+});
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
