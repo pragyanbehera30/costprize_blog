@@ -16,6 +16,11 @@
         margin-left: 120px;
         margin-top: -55px;
     }
+
+    .container {
+        width: 1170px;
+        margin-left: 105px;
+    }
 </style>
 <div class="topmenu">
     <ul>
@@ -23,11 +28,11 @@
             <a href="{{ URL::to('http://localhost/costprize_blog/public/') }}"><span>Home</span></a></li>
         <li><a href="{{ URL::to('admin') }}"><span>Admin Panel</span></a></li>
         <li><a href="{{ URL::to('logout') }}"><span>Logout</span></a></li>
-        <!--        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>-->
+        <li><a href="{{ URL::to('resetpassword') }}"><span>Reset Password</span></a></li>
     </ul>
 </div>
-
 <div class="row1">
+
     @if(Session::has('errors'))
     <?php $errors = Session::get('errors');
     ?>
@@ -37,7 +42,6 @@
     @endif
     @if(Session::has('success'))
     <?php $success = Session::get('success'); ?>
-
     <div class="alert alert-success" role="alert">
         <ul>
             <li>
@@ -46,6 +50,9 @@
         </ul>
     </div>
     @endif
+    <div class="container">
+        <?php echo 'Hey! ' . Auth::User()->email; ?>
+    </div>
 </div>
 <div class="row1">
     <img src="http://localhost/costprize_blog/public/img/Banner_6.jpg">
