@@ -15,7 +15,7 @@
                 @if(Session::has('errors'))
                 <?php $errors = Session::get('errors');
                 ?>
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger" role="alert" id="error">
                     <ul>
                         @foreach($errors as $error)
                         <li>{{ $error }}</li>
@@ -33,18 +33,12 @@
                     </ul>
                 </div>
                 @endif
+
             </ol>
             <!--            </div>-->
             <form action="registeruser" method="POST" class="form-horizontal" role="form" name="frm">
-                <!--                <div class="form-group">-->
-                <!--                    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>-->
-                <!--                    <div class="col-sm-10">-->
-                <!--                        <input class="form-control" id="inputEmail3" type="text" name="username"/>-->
-                <!--                    </div>-->
-                <!--                </div>-->
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
                     <div class="col-sm-10">
                         <input class="form-control" id="inputEmail3" type="email" name="email"/>
                     </div>
@@ -57,51 +51,33 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">Re-enter Password</label>
-
+                    <label for="inputPassword3" class="col-sm-2 control-label">Confirm-Password</label>
                     <div class="col-sm-10">
                         <input class="form-control" id="inputPassword3" type="password" name="cnmpwd"/>
                     </div>
                 </div>
-                <!--                <div class="form-group">-->
-                <!--                    <label for="inputPassword3" class="col-sm-2 control-label">Phone</label>-->
-                <!--                    <div class="col-sm-10">-->
-                <!--                        <input class="form-control" id="inputPassword3" type="text" name="phone"/>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="form-group">-->
-                <!--                    <label name="usertype"  for="inputPassword3" class="col-sm-2 control-label">Select User Type</label>-->
-                <!--                    <div class="col-sm-10">-->
-                <!--                        <select class="form-control" name="usertype">-->
-                <!--                            <option value="admin">ADMIN</option>-->
-                <!--                            <option value="user">USER</option>-->
-                <!--                        </select>-->
-                <!--                    </div>-->
-                <!--                </div>-->
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <!--                        <button type="submit" class="btn btn-default">Sign in</button>-->
-                        <input type="submit" class="btn btn-default" value="Register" onsubmit="return confirm_pwd();"/>
+                        <input type="submit" class="btn btn-default" value="Sign in"    onclick="return CheckPassword(document.frm.password.value,document.frm.cnmpwd.value)"/>
                         <button type="reset" class="btn btn-info">Reset</button>
                     </div>
                 </div>
             </form>
         </div>
-        <div class="col-md-2 column">
+        <div class="col-md-4 column">
         </div>
     </div>
 </div>
 <script>
-    function confirm_pwd() {
-        alert('hh');
-        $pwd = document.frm.getElementsByName('password');
-        $cnmpwd = document.frm.getElementsByName('cnmpwd');
-        console.log($pwd);
-        if ($pwd == $cnmpwd)
-            return true;
-        else
+    function CheckPassword($pwd,$cpwd){
+        var msg;
+        if($pwd == $cpwd){
+            return true
+        }else{
+            msg = "Password and Confirm password is not same!!";
+            document.getElementById("error").innerHTML = msg;
             return false;
-
-    }
+        }
+   }
 </script>
 @endsection
