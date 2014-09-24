@@ -6,7 +6,7 @@
     <link href='http://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <meta name="description" content="Description of your site goes here">
     <meta name="keywords" content="keyword1, keyword2, keyword3">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::base() }}/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <style>

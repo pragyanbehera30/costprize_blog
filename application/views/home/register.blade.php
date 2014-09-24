@@ -36,7 +36,10 @@
 
             </ol>
             <!--            </div>-->
-            <form action="registeruser" method="POST" class="form-horizontal" role="form" name="frm">
+            <form action="registeruser" method="POST" class="form-horizontal" role="form"
+                name="frm" id="register"
+                data-pwdFailMsg="Password and Confirm password is not same!!"
+            >
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-10">
@@ -45,20 +48,20 @@
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-
                     <div class="col-sm-10">
-                        <input class="form-control" id="inputPassword3" type="password" name="password"/>
+                        <input class="form-control" id="inputPassword2" type="password" name="password"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">Confirm-Password</label>
                     <div class="col-sm-10">
                         <input class="form-control" id="inputPassword3" type="password" name="cnmpwd"/>
+                        <div id="msgBlock"  class="text-info"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <input type="submit" class="btn btn-default" value="Sign in"    onclick="return CheckPassword(document.frm.password.value,document.frm.cnmpwd.value)"/>
+                        <input type="submit" class="btn btn-default" value="Sign in"/>
                         <button type="reset" class="btn btn-info">Reset</button>
                     </div>
                 </div>
@@ -68,16 +71,4 @@
         </div>
     </div>
 </div>
-<script>
-    function CheckPassword($pwd,$cpwd){
-        var msg;
-        if($pwd == $cpwd){
-            return true
-        }else{
-            msg = "Password and Confirm password is not same!!";
-            document.getElementById("error").innerHTML = msg;
-            return false;
-        }
-    }
-</script>
 @endsection
