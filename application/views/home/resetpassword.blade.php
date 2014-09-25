@@ -84,14 +84,19 @@
             <!--            <div class="container">-->
             <!--            --><?php //echo 'Hey! ' . Auth::User()->email; ?>
             <!--            </div>-->
-            <form action="{{ URL::to('resetpassword') }}" method="POST" class="form-horizontal" role="form">
+            <form action="{{ URL::to('resetpassword') }}" method="POST" class="form-horizontal" role="form"
+                  id="resetpassword"
+                  data-pwdFailMsg="Password and Confirm password is not same!!"
+                  data-oldpwd="enter your old password!!"
+                  data-all="Fields are empty">
                 <input type="hidden" class="form-control" name="id" value="{{$id  }}"/>
 
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Old Password</label>
 
                     <div class="col-sm-10">
-                        <input class="form-control" id="inputPassword3" type="password" name="old_password"/>
+                        <input class="form-control" id="inputPassword2" type="password" name="old_password"/>
+                        <p id="msgblock1"></p>
                     </div>
                 </div>
                 <div class="form-group">
@@ -99,13 +104,16 @@
 
                     <div class="col-sm-10">
                         <input class="form-control" id="inputPassword3" type="password" name="password"/>
+                        <p id="msgblock2"></p>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">Confirm Password</label>
 
                     <div class="col-sm-10">
-                        <input class="form-control" id="inputPassword3" type="password" name="password_confirmation"/>
+                        <input class="form-control" id="inputPassword4" type="password" name="password_confirmation"/>
+                        <p id="msgblock3"></p>
+                        <div id="msgBlock"  class="text-info"></div>
                     </div>
                 </div>
                 <div class="form-group">

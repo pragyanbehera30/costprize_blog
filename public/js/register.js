@@ -24,9 +24,7 @@ var register = (function () {
         }
         else {
             event.preventDefault();
-
 //            alert(msg);
-
           msg = $(msgblock).html((form).data("pwdfailmsg"));
 //            $('#msgBlock').html($('#register').data("pwdfailmsg"));
 //            alert(msg);
@@ -34,9 +32,7 @@ var register = (function () {
 //            document.getElementById(msgblock).innerHTML = msg;
 //            msgblock.show();
         }
-
     }
-
     return{
         init: init
     };
